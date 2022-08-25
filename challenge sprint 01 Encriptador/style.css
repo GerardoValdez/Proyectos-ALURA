@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+
+.conteiner{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: #F3F5FC ; 
+}
+
+.logo{
+    width: 100%; /* para que se adapte */
+    float: left; /* para poder moverlo como quiera */ 
+    background: #F3F5FC;/*#F3F5FC ;*/
+    margin-top: 1%;
+    position: absolute; 
+    margin-left: 5%;
+    width: auto;
+    
+}
+
+.left{
+    float:left;
+    width: 70%;
+    height: 70%; 
+    border-radius: 24px;
+    background: #F3F5FC ;   
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0,0.3);
+    
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: #F3F5FC;
+    
+}
+
+#input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 20%;
+    min-width: 80%;
+    min-height: 70%;
+    max-width: 80%;
+    max-height: 70%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    resize: none;
+    
+}
+
+#munieco{
+    margin-left: 2%;
+    margin-top: 10%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    margin-bottom: 5px;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+#resultado{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    background: #FFFFFF;
+}
+
+#condicion{
+    padding-left: 20%;
+    color: #495057;
+}
+
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    margin-left: 15%;
+    background: #0A3871;
+    color: #D8DFE8;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.3);
+}
+#btn-encriptar:hover{
+    background: #051A78;
+}
+#btn-encriptar:active{
+    background: #0A016B;
+}
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    margin-left: 10%;
+    background: #D8DFE8;
+    color: #0A3871;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.3);
+}
+#btn-desencriptar:hover{
+    background: #C1C5DB;
+}
+#btn-desencriptar:active{
+    background: #878597;
+}
+
+#btn-copiar{
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    margin-left: 15%;
+    color: #0A3871;
+    background: #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.3);
+    margin-bottom: 10px;
+}
+#btn-copiar:hover{
+    background: #D8DFE8;
+}
+#btn-copiar:active{
+    background: #C1C5DB;
+}
+
+
+#btn-escuchar{
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    margin-left: 10%;
+    color: #0A3871;
+    background: #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.3);
+    
+}
+#btn-escuchar:hover{
+    background: #D8DFE8;
+}
+#btn-escuchar:active{
+    background: #C1C5DB;
+}
+
+.pie-pagina{
+    padding-top: 61%;
+    background: #F3F5FC;
+}
